@@ -41,13 +41,13 @@ extension NSDate
         
         dateFormatString += "MMddHHmmss"
         
-        if (month > 10){
+        if (month > 9){
             dateInputString += String(month)
         } else {
             dateInputString += "0" + String(month)
         }
         
-        if (day > 10){
+        if (day > 9){
             dateInputString += String(day)
         } else {
             dateInputString += "0" + String(day)
