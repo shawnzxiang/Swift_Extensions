@@ -53,19 +53,19 @@ extension NSDate
             dateInputString += "0" + String(day)
         }
         
-        if (hour > 10){
+        if (hour > 9){
             dateInputString += String(hour)
         } else {
             dateInputString += "0" + String(hour)
         }
         
-        if (minute > 10){
+        if (minute > 9){
             dateInputString += String(minute)
         } else {
             dateInputString += "0" + String(minute)
         }
         
-        if (second > 10){
+        if (second > 9){
             dateInputString += String(second)
         } else {
             dateInputString += "0" + String(second)
@@ -93,13 +93,13 @@ extension NSDate
         
         dateFormatString += "MMdd"
         
-        if (month > 10){
+        if (month > 9){
             dateInputString += String(month)
         } else {
             dateInputString += "0" + String(month)
         }
         
-        if (day > 10){
+        if (day > 9){
             dateInputString += String(day)
         } else {
             dateInputString += "0" + String(day)
@@ -127,31 +127,31 @@ extension NSDate
         
         dateFormatString += "MMddHHmmss"
         
-        if (month > 10){
+        if (month > 9){
             dateInputString += String(month)
         } else {
             dateInputString += "0" + String(month)
         }
         
-        if (day > 10){
+        if (day > 9){
             dateInputString += String(day)
         } else {
             dateInputString += "0" + String(day)
         }
         
-        if (hour > 10){
+        if (hour > 9){
             dateInputString += String(hour)
         } else {
             dateInputString += "0" + String(hour)
         }
         
-        if (minute > 10){
+        if (minute > 9){
             dateInputString += String(minute)
         } else {
             dateInputString += "0" + String(minute)
         }
         
-        if (second > 10){
+        if (second > 9){
             dateInputString += String(second)
         } else {
             dateInputString += "0" + String(second)
