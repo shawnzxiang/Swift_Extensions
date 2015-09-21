@@ -60,7 +60,7 @@ extension String {
     }
     
     func toFloat() -> Float {
-        return Float(self)!
+        return isDouble() ? Float(self)! : 0.0
     }
     
     func isInt() -> Bool {
@@ -99,8 +99,6 @@ extension String {
     func isCapitalizedLetters() -> Bool{
         return self.isCharSet(NSCharacterSet.capitalizedLetterCharacterSet())
     }
-    
-    
     
     func isCharSet(set: NSCharacterSet) -> Bool{
         let digits = set
