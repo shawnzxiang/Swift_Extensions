@@ -4,10 +4,33 @@ Integer, float, Double, Array, NSDate extensions that are compatible to the late
 
 I wrote or found solution in StackOverflow during the time I was learning and writing iOS Apps. 
 
-Double/Float: abs, sqrt, floor, ceil, round, floorToInt, ceilToInt, roundToInt, ceilToString, roundToString, toPercentage, toDecimal, isPositive, isNegative, isZero, sign, fullSign
 
-Integer: toString, toDouble, toFloat, isEven, isOdd, abs, gcd, lcm, factorial, isZero, isPositive, isNegative, sign, fullSign, times
+Double/Float:
 
-String: subscript, contains, remove, replace, split, numberOfOccurance, containsOne, times, toInt, toDouble, isInt, isDouble, isPercentage, isLetter, isAlphaNumeric, isCapitalizedLetters, isCharSet
+abs, sqrt, floor, ceil, round, 
+floorToInt, ceilToInt, roundToInt, 
+ceilToString, roundToString, toPercentage, toDecimal, 
+isPositive, isNegative, isZero, sign, fullSign
 
-NSDate: init, setNSDate, setYear, setMonth, setDay, setHour, setMin, setSec, tomorrow, yesterday, isGreaterThanDateAndTime, isLessThanDateAndTime, isEqualToTheDateAndTime, getYearInString, getDayInString, getHourInString, getMinInString, getSecInString, getYearInInt, getDayInInt, getHourInInt, getMinInInt, getSecInInt, isSmallerInDateOnly, isEqualInDateOnly, isEqualToTheDateOnly, convertToString, isItTomorrow, isItYesterday, addDays, addHours, addMins, addSecs, convertUnixDatestampToNSDate
+Integer: 
+
+toString, toDouble, toFloat, 
+isEven, isOdd, abs, gcd, lcm, factorial, 
+isZero, isPositive, isNegative, 
+sign, fullSign, times
+
+String: 
+
+subscript, contains, remove, replace, split, numberOfOccurance, containsOne, times, 
+toInt, toDouble, 
+isInt, isDouble, isPercentage, isLetter, isAlphaNumeric, isCapitalizedLetters, isCharSet
+
+NSDate: 
+
+init, setNSDate, setYear, setMonth, setDay, setHour, setMin, setSec, 
+isGreaterThanDateAndTime, isLessThanDateAndTime, isEqualToTheDateAndTime, 
+getYearInString, getDayInString, getHourInString, getMinInString, getSecInString, 
+getYearInInt, getDayInInt, getHourInInt, getMinInInt, getSecInInt, 
+isSmallerInDateOnly, isEqualInDateOnly, isEqualToTheDateOnly, convertToString, 
+tomorrow, yesterday, isItTomorrow, isItYesterday, 
+addDays, addHours, addMins, addSecs, convertUnixDatestampToNSDate
