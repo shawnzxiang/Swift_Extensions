@@ -66,6 +66,12 @@ public extension Int {
         }
     }
     
+    // Similar to the Ruby equivalent. You can do 5.times { print("hello world")} and it will print it five times
+    func times(task: () -> ()) {
+        for _ in 1 ... self  {
+            task()
+        }
+    }
 
 }
 
