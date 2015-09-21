@@ -1,6 +1,6 @@
 # Swift_Extensions
 
-Integer, float, Double, Array, NSDate extensions that are compatible to the latest Swift 2.0 library
+Integer, float, Double, String, NSDate extensions that are compatible to the latest Swift 2.0 library
 
 I wrote or found solution in StackOverflow during the time I was learning and writing iOS Apps. 
 
