@@ -394,30 +394,25 @@ extension NSDate
         
     }
     
+    func convertToString() -> String {
+        return dateFormatter.stringFromDate(self)
+    }
+    
     func convertToString(formatString: String) -> String {
         let dateFormatter = NSDateFormatter()
         dateFormatter.dateFormat = formatString
         
         return dateFormatter.stringFromDate(self)
-    }
-    
-    func convertToString(date: NSDate, formatString: String) -> String {
-        let dateFormatter = NSDateFormatter()
-        dateFormatter.dateFormat = formatString
-        
-        
-        
-        return dateFormatter.stringFromDate(date)
    
     }
     
     // MARK: compare with tomorrow and yesterday
-    func isItTomorrow(date: NSDate) -> Bool{
-        return (isEqualToTheDateOnly(NSDate().addDays(1)))
+    func isItTomorrow() -> Bool{
+        return (self.isEqualToTheDateOnly(NSDate().addDays(1)))
     }
     
-    func isItYesterday(date: NSDate) -> Bool{
-        return (isEqualToTheDateOnly(NSDate().addDays(-1)))
+    func isItYesterday() -> Bool{
+        return (self.isEqualToTheDateOnly(NSDate().addDays(-1)))
     }
     
     // MARK: add or subtract time period
